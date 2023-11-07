@@ -37,15 +37,15 @@
     <div class="banner_shadow pt-2 pl-2 pr-2 pb-32  md:[pt-7 pl-5 pr-8 pb-28]">
     
         <div class="container flex flex-col md:flex-row space-y-10 justify-start md:justify-between">
-            <div class="one w-[120px] h-[56px]">
+            <div class="one w-[120px] h-[56px] bg-slate-50 mt-10">
                 <img src="images/logo.png" alt="">
             </div>
             <div class="form-control text-base font-montserrat font-normal">
-                <input type="text" placeholder="Search Your Destination" class="input input-bordered w-[350px]" />
+                <input type="text" placeholder="Search Your Destination" class="input input-bordered w-[280px] md:w-[300px] lg:w-[350px]" />
               </div>
             <div class="three">
                 <nav>
-                    <ul class="flex flex-col md:flex-row gap-6 text-base font-montserrat font-medium text-white md:text-white">
+                    <ul class="flex flex-col md:flex-row gap-2 md:gap-6 text-base font-montserrat font-medium text-white md:text-white">
                         <li><a class="hover:bg-slate-300" href="#">News</a></li>
                         <li><a a class="hover:bg-slate-300" href="#">Destination</a></li>
                         <li><a a class="hover:bg-slate-300" href="#">Blog</a></li>
@@ -53,15 +53,15 @@
                     </ul>
                 </nav>
             </div>
-            <div class="text-end">
+            <div class="text-start md:text-end">
                 <a class="btn bg-orange-400  text-base font-normal text-[#000]">LogIn</a>
               </div>
         </div>
         <!-- description part start -->
-        <div class="flex justify-between ">
+        <div class="flex flex-col md:flex-row justify-between ">
 
       
-        <div class="left mt-40 ml-8">
+        <div class="left mt-40 ml-3 md:ml-20">
             <h1 class="text-8xl font-bebas-neue font-normal text-[#FFFFFF]">Cox's bazar</h1>
             <p class="text-base font-montserrat text-[#FFF] font-normal">Cox's Bazar is a city, fishing port, tourism centre and <br> district headquarters in southeastern Bangladesh. It is <br> famous mostly for its long natural sandy beach, and it ...</p>
             <div class="text-start mt-10 ">
@@ -71,27 +71,33 @@
                   </a>
               </div>
         </div>
-       <div class="right flex gap-9 mt-48">
-        <div class="w-[270px] h-[420px] bg-base-400 shadow-xl image-full bg-opacity-10">
-            <figure><img class="bg-opacity-10" src="images/sundorbon.png" alt="Sundorbon" />
-            
-                <div class="card-body">
-                  <h2 class="text-white">Sundorbon</h2>
+       <div class="right grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-14 mt-48">
+        <div class="container">
+            <div class="row">
+                <div class="banner relative h-[420px] w-[270px]">
+                    <img src="images/sundorbon.png" alt="Bandorbon;">
+                    <h3 class="absolute top-80 left-3 text-4xl font-bebas-neue font-normal text-[#FFF]">Sundorbon</h3>
                 </div>
-            </figure>
-          </div>
-        <div class="w-[270px] h-[420px] bg-base-100 opacity-40 shadow-xl image-full">
-            <figure><img class="relative" src="images/Sreemongol.png" alt="Sundorbon" /></figure>
-            <div class="card-body">
-              <h2 class="card-title ">Sreemongol</h2>
             </div>
           </div>
-        <div class="w-[270px] h-[420px] bg-base-100 shadow-xl opacity-95 image-full">
-            <figure><img src="images/Sajek.png" alt="Sundorbon" /></figure>
-            <div class="card-body">
-              <h2 class="card-title">Sajek</h2>
+          <div class="container">
+            <div class="row">
+                <div class="banner relative h-[420px] w-[270px]">
+                    <img src="images/Sajek.png" alt="Sajek;">
+                    <h3 class="absolute top-80 left-3 text-4xl font-bebas-neue font-normal text-[#FFF]">Sajek</h3>
+                </div>
             </div>
           </div>
+          <div class="container">
+            <div class="row">
+                <div class="banner relative h-[420px] w-[270px]">
+                    <img src="images/Sreemongol.png" alt="Sreemongo;">
+                    <h3 class="absolute top-80 left-3 text-4xl font-bebas-neue font-normal text-[#FFF]">Sreemongol</h3>
+                </div>
+            </div>
+          </div>
+
+
        </div>
     </div>
     <div class="text-center mt-24">

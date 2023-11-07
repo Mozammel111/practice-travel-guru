@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li{
+    list-style: none;
+
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+
+.container{
+    width: 950px;
+    margin: 0 auto;
+}
+
+/* common css end */
+
+#banner{
+    background: url(../images/Rectangle\ 1.png) no-repeat center;
+    background-size: cover;
+    margin: 40px;
+}
+
+#banner .banner_shadow{
+    /* padding: 30px 100px 10px 0px; */
+    background-color:rgba(0 0 0 .5);
+}

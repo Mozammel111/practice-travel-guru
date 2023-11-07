@@ -28,5 +28,5 @@ a{
 
 #banner .banner_shadow{
     /* padding: 30px 100px 10px 0px; */
-    background-color:rgba(0 0 0 .5);
+    background: rgba(0, 0, 0, 0.70);
 }
